@@ -1,0 +1,36 @@
+[+] Register a user
+[+] Login a user
+[+] Who am I
+[+] Refresh the token
+[+] Logout the user
+[+] Add new product
+[+] Update a product
+[+] Get all products
+[+] Get single product
+[+] Delete a product
+
+
+bcrypt -- A library to help you hash passwords
+cors -- It is a mechanism to allow or restrict requested resources on a web server depend on where the HTTP request was initiated. This policy is used to 
+        secure a certain web server from access by other website or domain
+dotenv --  lightweight npm package that automatically loads environment variables from a . env file into the process. env object 
+esm --
+express 
+joi --  to make data validation easy to write and manage.
+jsonwebtoken
+mongoose
+multer
+
+unLink - for  delete file
+
+----mongoose
+
+find - to get all
+fineOne - to get one
+fineOneAndUpdate
+fineOneAndRemove ({id: req.params.id})
+
+mongoose pagination - to limit items
+select(-updatedAt -__v).sort({_id: -1}) method --- {_id: -1 for descending sort}
+
+npm http-server -- to run html fine
